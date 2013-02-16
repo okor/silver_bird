@@ -147,7 +147,8 @@ input[type='text'] {
 }
 
 .tweet.unread {
-  background-color: hsla(0, 0%, 0%, .05);
+/*  background-color: hsla(0, 0%, 0%, .05);*/
+  background-color: rgba(0,0,0,0.1);
 }
 
 .tweet .user {
@@ -196,9 +197,21 @@ input[type='text'] {
 }
 
 .tweet .rt_confirm {
+	background-color: #323232;
+	color: white;
+	border: solid 1px white;
+	position: absolute;
+	top: 41px;
+	padding: 3px;
+	font-size: 80%;
 }
 
 .tweet .rt_confirm a {
+	color: white;
+}
+
+.tweet .rt_confirm a:hover {
+	color: orange;
 }
 
 .tweet .extra_tweet_data {
@@ -222,4 +235,13 @@ div.simple_select ul li {
 }
 
 div.simple_select ul li.selected {
+}
+
+.ui-menu {
+	background-color: #ccc;
+}
+
+.ui-menu li:hover a {
+	background-color: #323232;
+	color: white;
 }
