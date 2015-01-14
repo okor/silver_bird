@@ -4,7 +4,6 @@
 */
 
 input[type='text'] {
-  -webkit-border-radius: 5px;
   background-color: #f0f5fb;
   border: 1px solid #c1cddc;
 }
@@ -21,7 +20,6 @@ input[type='text'] {
 }
 
 #update_tweets {
-  -webkit-border-radius: 5px;
   background-color: #b4cff2;
   color: #666;
 }
@@ -31,8 +29,6 @@ input[type='text'] {
 }
 
 #shortener_button div {
-  border-bottom-left-radius: 5px 5px;
-  border-bottom-right-radius: 5px 5px;
   background-color: #e5effe;
   border: 1px solid #b4cff2;
   border-top: 0px;
@@ -49,13 +45,11 @@ input[type='text'] {
 }
 
 #compose_tweet_area textarea {
-  -webkit-border-radius: 5px;
   background-color: #f0f5fb;
   border: 1px solid #c1cddc;
 }
 
 #compose_tweet {
-  -webkit-border-radius: 5px;
   color: #000000;
   background-color: #e5effe;
   border: 1px solid #b4cff2;
@@ -67,12 +61,9 @@ input[type='text'] {
   border: 1px solid #c1cddc;
 }
 
-.tweet_overlay {
-  -webkit-border-radius: 2px;
-}
+
 
 .tweet {
-  -webkit-border-radius: 5px;
   background-color: #ffffff;
   border: 3px solid #e5effe;
   margin-bottom: 3px;
@@ -93,12 +84,9 @@ input[type='text'] {
   color: #999;
 }
 
-.tweet img.profile {
-  -webkit-border-radius: 5px;
-}
+
 
 .tweet .rt_confirm {
-  -webkit-border-radius: 5px;
   border: 3px solid #3BAAE3;
   background-color: #e5effe;
 }
@@ -110,7 +98,6 @@ input[type='text'] {
 /* Simple Select */
 div.simple_select .label {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5effe), color-stop(0.5, #b4cff2), to(#e5effe));
-  -webkit-border-radius: 8px;
   border: 1px solid #b4cff2;
   color: #0070A3;
 }

@@ -30,7 +30,6 @@ input[type='text'] {
   left: 5px;
   background-color: red;
   height: 1px;
-  border-radius: 1px;
   opacity: 0.4;
 }
 
@@ -227,7 +226,6 @@ input[type='text'] {
   background-color: #777;
   text-align: center;
   padding: 0 5px 0 5px;
-  -webkit-border-radius: 5px;
 }
 
 .tweet {

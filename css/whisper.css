@@ -1,5 +1,4 @@
 input[type='text'] {
-  -webkit-border-radius: 5px;
   border: 1px solid #882;
 }
 
@@ -15,7 +14,6 @@ input[type='text'] {
 }
 
 #update_tweets {
-  -webkit-border-radius: 10px;
   background-color: #EDEDB1;
   color: #666;
   font-style: italic;
@@ -26,8 +24,6 @@ input[type='text'] {
 }
 
 #shortener_button div {
-  border-bottom-left-radius: 5px 5px;
-  border-bottom-right-radius: 5px 5px;
   background-color: #EDEDB1;
 }
 
@@ -59,7 +55,6 @@ input[type='text'] {
 }
 
 #compose_tweet {
-  -webkit-border-radius: 10px;
   background-color: #EDEDB1;
   color: #666;
   font-style: italic;
@@ -70,7 +65,6 @@ input[type='text'] {
 }
 
 .tweet {
-  -webkit-border-radius: 5px;
   background-color: #ee7;
   margin-bottom: 3px;
 }
@@ -91,12 +85,8 @@ input[type='text'] {
   font-style: italic;
 }
 
-.tweet img.profile {
-  -webkit-border-radius: 5px;
-}
 
 .tweet .rt_confirm {
-  -webkit-border-radius: 5px;
   background-color: #EDEDB1;
 }
 
@@ -107,7 +97,6 @@ input[type='text'] {
 /* Simple Select */
 div.simple_select .label {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2ED97), color-stop(0.5, #FECE2F), to(#F2ED97));
-  -webkit-border-radius: 8px;
   border: 1px solid #FECE2F;
   color: #381F00;
 }

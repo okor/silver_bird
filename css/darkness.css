@@ -50,7 +50,6 @@
 
 
 input[type='text'] {
-  -webkit-border-radius: 5px;
   border: 1px solid #882;
 }
 
@@ -58,13 +57,9 @@ input[type='text'] {
   background-color: #000;
   color: #eee;
   padding: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
 }
 
 #shortener_button div {
-  border-bottom-left-radius: 5px 5px;
-  border-bottom-right-radius: 5px 5px;
   background-color: #EDEDB1;
 }
 
@@ -108,7 +103,6 @@ input[type='text'] {
 #workspace {margin: 0 1px; padding: 0; background-color: #000}
 
 #compose_tweet_area input[type="button"], #update_tweets, #compose_tweet {
-  -webkit-border-radius: 5px;
   background: #F58400 url(darkness-theme/images/ui-bg_inset-soft_30_f58400_1x100.png) repeat-x scroll 50% 50%;
   color: #fff;
   font-style: italic;
@@ -172,12 +166,8 @@ input[type='text'] {
   top: 2px;
 }
 
-.tweet img.profile {
-  -webkit-border-radius: 5px;
-}
 
 .tweet .rt_confirm {
-  -webkit-border-radius: 5px;
   background-color: #EDEDB1;
   color: #000000;
 }
@@ -193,7 +183,6 @@ input[type='text'] {
 /* Simple Select */
 div.simple_select .label {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2ED97), color-stop(0.5, #FECE2F), to(#F2ED97));
-  -webkit-border-radius: 8px;
   border: 1px solid #FECE2F;
   color: #381F00;
 }

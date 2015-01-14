@@ -7,7 +7,6 @@ div.action_menu {
 div.action_menu .action_area {
   display: -webkit-box;
   background-color: rgb(0, 153, 219);
-  -webkit-border-radius: 5px;
   white-space: nowrap;
 }
 
