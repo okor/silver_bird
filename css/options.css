@@ -7,7 +7,7 @@ body {
 }
 
 fieldset {
-  border: 1px solid #b4cff2;
+  border: 1px solid #D0D0D0;
   margin-right: 50px;
   margin-bottom: 10px;
 }
@@ -27,7 +27,7 @@ fieldset legend {
 }
 
 #main_area input[type="text"], #main_area input[type="password"], #main_area select {
-  border: 1px solid #b4cff2;
+  border: 1px solid #D0D0D0;
   width: 140px;
 }
 
@@ -52,7 +52,7 @@ fieldset legend {
 
 #main_area #predicted_hits_count {
   font-weight: bold;
-  border: 1px solid #b4cff2;
+  border: 1px solid #D0D0D0;
   padding: 2px;
   padding-right: 3px;
 }
@@ -96,7 +96,6 @@ fieldset legend {
   margin-right: auto;
   margin-top: 20px;
   background-color: #ffffff;
-  border: 3px solid #e5effe;
   padding: 2px 4px 2px 4px;
 }
 

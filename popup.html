@@ -72,13 +72,12 @@
     <textarea rows="4"></textarea>
     <div id="shortener_area">
       <input type="text" name="shortener_text">
-      <div id="shorten_current" title="Share current page"></div>
       <div id="shortener_button"><div><span id="shortenIt" class="i18n"></span></div></div>
     </div>
     <div class="footer">
       <input id="tweetit" class="i18n" type="button" />
       <span id="upload_button_area">
-        <img id="attach_icon" src="img/attachment.png"><input id="image_input" type="file" name="media" accept="image/*" />
+        <input id="image_input" type="file" name="media" accept="image/*" />
       </span>
       <progress id="upload_progress" max="100"></progress>
       <span class="chars_left"></span>
@@ -88,14 +87,6 @@
     <img class="left" src="img/arrow_down.gif"/><span id="composeTweet" class="i18n"></span><img class="right" src="img/arrow_down.gif"/>
   </div>
 
-  <span class="header_link_left">
-    <a id="signout" href="#"><span id="logout" class="i18n"></span></a> |
-    <a id="options_page_link" href="#"><span id="options" class="i18n"></span></a> |
-    <a id="refresh_trigger" href="#"><span id="refresh" class="i18n"></span></a> |
-    <a id="suspend_toggle" href="#"><span id="suspend" class="i18n"></span></a> |
-    <a id="trending_topics" href="#" class="i18n">Trends</a>
-    <span id="suspended_notice"><span id="autoUpdatesSuspended" class="i18n"></span></span>
-  </span>
   <span class="header_link_right">
     <a id="mark_all_read_trigger" href="#"><span id="markAllRead" class="i18n"></span></a>
     <a id="detach_trigger" href="#"><img id="detach_img" src="img/up_detach.png"/></a>
@@ -103,8 +94,6 @@
   <img src="img/loading.gif" id="loading" style="display: none;"/>
   <img src="img/loading.gif" id="queue_loading" style="display: none;"/>
   <div style="clear: both;"></div>
-
-  <div id="update_tweets"></div>
 
   <div id="tabs">
     <ul></ul>

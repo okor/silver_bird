@@ -82,6 +82,7 @@ input[type='text'] {
 #workspace {
   margin: 0px 4px 0px 4px;
   min-width: 440px;
+  overflow: hidden;
 }
 
 .header_link_left {
@@ -118,9 +119,8 @@ input[type='text'] {
 }
 
 .inner_timeline {
-  margin: 0px;
+  margin: 4px 0 0 0;
   padding: 0px;
-  padding-right: 35px;
   overflow: auto;
   overflow-x: hidden;
   position: relative;
@@ -136,14 +136,13 @@ input[type='text'] {
 }
 
 #shortener_area {
-  margin: 0px;
-  padding: 0px;
-  margin-bottom: 2px;
+  margin: 3px 0 6px 0;
 }
 
 #shortener_area input {
   width: 100%;
   z-index: 999;
+  padding: 3px;
 }
 
 #shortener_button {
@@ -169,6 +168,11 @@ input[type='text'] {
   right: 4px;
   margin-top: -16px;
   cursor: pointer;
+}
+
+#compose_tweet_area {
+  margin-bottom: 10px;
+  margin-top: 4px;
 }
 
 #compose_tweet_area textarea {
@@ -235,11 +239,6 @@ input[type='text'] {
 
 .tweet_overlay {
   width: 100%;
-  margin-top: -2px;
-  margin-left: -4px;
-  padding: 2px 22px 2px 4px;
-  min-width: 400px;
-  min-height: 64px;
   position: relative;
 }
 

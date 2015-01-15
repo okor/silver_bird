@@ -1,0 +1,118 @@
+/*
+  2015 Theme
+  2015 okor
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+input[type='text'] {
+  border: 1px solid #ddd;
+}
+
+#warning {
+  background-color: orange;
+  color: white;
+  border: 2px solid #b4cff2;
+  border-top: 0;
+}
+
+#warning .dismiss {
+  border: 1px solid #ccc;
+  padding: 0px 4px 0px 4px;
+}
+
+#update_tweets {
+  background-color: #b4cff2;
+  color: #666;
+}
+
+#update_tweets:hover {
+  background-color: #eff4fb;
+}
+
+#shortener_button div {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-top: 0px;
+}
+
+#shortener_button div:hover {
+  background-color: #ccc;
+  border: 1px solid #c1cddc;
+  border-top: 0px;
+}
+
+#shorten_current {
+  background: #fff url(../img/globe_blue.png) repeat-x 0 0;
+}
+
+#compose_tweet_area textarea {
+  border: 1px solid #c1cddc;
+}
+
+#compose_tweet {
+  color: #000000;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+#compose_tweet:hover {
+  border: 1px solid #c1cddc;
+}
+
+
+
+.tweet {
+  background-color: #ffffff;
+  border: 3px solid #ccc;
+  margin-bottom: 3px;
+  padding: 10px;
+}
+
+.tweet.unread {
+  border: 1px solid #ccc;
+  margin: 2px 2px 5px;
+}
+
+.tweet .user {
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tweet .footer {
+  color: #999;
+}
+
+
+
+.tweet .rt_confirm {
+  border: 3px solid #3BAAE3;
+  background-color: #ccc;
+}
+
+.tweet .extra_tweet_data {
+  color: #999;
+}
+
+/* Simple Select */
+div.simple_select .label {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), color-stop(0.5, #b4cff2), to(#ccc));
+  border: 1px solid #ccc;
+  color: #0070A3;
+}
+
+div.simple_select .options_area ul li:hover {
+  background-color: rgb(223, 232, 246);
+}
+
+div.simple_select ul li.selected {
+  background-color: rgb(223, 232, 246);
+}
